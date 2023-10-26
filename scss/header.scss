@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header.forsida {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    white-space: nowrap; /* Ensures content doesn't wrap to next line */
+        background-image: url('/myndir/Backround\ mynd.jpeg'); /* Path to your image */
+        height: 30rem;
+        background-size: cover; 
+        background-position: center center; 
+        background-repeat: no-repeat;
+        background-position: absolute;
+        z-index: 1;
+    
+
+}
+
+header.forsida h1 {
+font-size: 17vw;
+font-weight: 700;
+line-height: 1.2;
+}
+
+header.forsida p {
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
